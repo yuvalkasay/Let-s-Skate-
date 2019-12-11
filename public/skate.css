@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+
+}
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./img/skate-3385373_1280.jpg);;
+    clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+    background-attachment: fixed;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-bottom: 10px;
+}
+.btn {
+    text-decoration: none;
+    font-size: 150%;
+    border: solid 1px orange;
+    padding: 5px 26px;
+    background-color: orange;
+    border-radius: 100px;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+    color: black;
+}
+.btn:hover {
+    background-color: rgb(219, 143  , 0);
+    border: solid 1px rgb(219, 143, 0);
+}
+.first-page-text {
+    transform: translate(200%, 150%);
+    position: absolute;
+}
+/* section {
+    background-image: url(./img/guy-2606789_1280.jpg);
+    background-position: center;
+} */
+.second-div {
+    width: 70%;
+    margin: 0 auto;
+}
+.second-page {
+    margin-top: 60px;
+}
+.second-title {
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 50px;
+}
+.second-para {
+    font-size: 120%;
+    text-align: center;
+
+}
+
+input {
+    display: block;
+}
+.input-class{
+    margin-top: 55px;
+}
+footer {
+    margin-top: 100px;
+    width: auto;
+    height: 85px;
+    background-color: rgb(94, 99, 104);
+    padding: 20px;
+}
+.last-div {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.div-left {
+    float: left; 
+    width: 49%;
+}
+.div-rigth {
+    float: left;
+    width: 51%;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    color: tan;
+    padding: 5px;
+}
+.social-links li a{
+    font-size: 130%;
+    float: right;
+}
+.div-left ul {
+    margin-left: -17%;
+}
+.div-rigth ul  {
+    margin-left: 273px;
+}
+.last-line {
+    text-align: center;
+    position: relative;
+    top: 15px;
+    color: tan;
+}
+.div-left ul a:hover {
+    color: rgb(189, 165, 134);
+    transition: 0.2s;
+}
+.div-rigth ul a .fa-facebook:hover {
+    color: #3B5998;
+}
+.div-rigth ul a .fa-instagram:hover {
+    color: #3B5998;
+}
+.div-rigth ul a .fa-youtube:hover {
+    color: #bb0000;
+}
+.div-rigth ul a .fa-twitter:hover {
+    color: #00aced;
+}
+
+.sent-it {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 130%;
+    background-color: orange;
+    border-radius: 100px;
+    padding: 5px 15px;
+    color: black;
+    border: solid 1px orange;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.sent-it:hover {
+    background-color: rgb(219, 143  , 0);
+    border: solid 1px rgb(219, 143, 0);
+}
+
+/* .newsletter {
+    font-size: 120%;
+} */
