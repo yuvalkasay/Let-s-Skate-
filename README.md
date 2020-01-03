@@ -1,6 +1,6 @@
 # Let's skate
 Implementing this project using HTML, CSS, jQuery and JavaScript in client side. In the server side, using Node.js and Express.js.
-The purpose of this app is to connect between people who love to skateboard across Israel.
+The purpose of this app is to connect between people who love to skateboard.
  
  # illustration
 <img width="956" alt="skate-1" src="https://user-images.githubusercontent.com/57451645/71702411-021f1a00-2dd8-11ea-8abd-4326053a9baa.png">
