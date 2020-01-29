@@ -1,4 +1,4 @@
-# Let's skate
+# Let's skate 
 Implementing this project using HTML, CSS, jQuery and JavaScript on the client-side. On the server-side, using Express.js.
 The purpose of this app is to connect between people who love to skateboard.
  
